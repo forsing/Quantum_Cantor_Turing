@@ -120,9 +120,9 @@ np.random.seed(39)
 
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89_loto_2980.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4716_k89_loto_plus_1736.csv"),
+    Path("/data/loto7_4716_k89.csv"),
+    Path("/data/loto7_4716_k89_loto_2980.csv"),
+    Path("/data/loto7_4716_k89_loto_plus_1736.csv"),
 )
 
 DIAGNOSTICS = False
@@ -1976,19 +1976,19 @@ loto7_4716_k89.csv | ucenje programa
 Validacija | programa=27, nivo=3, L2=0.1, NLL=16.892624, pogodaka=1.2560
 Test | NLL=16.814856, pogodaka=1.2726
 Napomena: mali gradijent nije potvrdjen za validacioni, test, zavrsni model.
-loto7_4716_k89.csv NEXT: 7 13 18 26 30 32 35
+loto7_4716_k89.csv NEXT: 7 x 18 y 30 z 35
 
 loto7_4716_k89_loto_2980.csv | ucenje programa
 Validacija | programa=25, nivo=1, L2=0.1, NLL=16.960685, pogodaka=1.2394
 Test | NLL=16.985979, pogodaka=1.1834
 Napomena: mali gradijent nije potvrdjen za validacioni, test, zavrsni model.
-loto7_4716_k89_loto_2980.csv NEXT: 1 11 13 14 16 28 39
+loto7_4716_k89_loto_2980.csv NEXT: 1 x 13 y 16 z 39
 
 loto7_4716_k89_loto_plus_1736.csv | ucenje programa
 Validacija | programa=25, nivo=1, L2=0.1, NLL=17.683246, pogodaka=1.2385
 Test | NLL=17.286699, pogodaka=1.3257
 Napomena: mali gradijent nije potvrdjen za validacioni, test, zavrsni model.
-loto7_4716_k89_loto_plus_1736.csv NEXT: 5 9 10 13 16 23 36
+loto7_4716_k89_loto_plus_1736.csv NEXT: 5 x 10 y 16 z 36
 """
 
 
